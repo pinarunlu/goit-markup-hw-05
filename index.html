@@ -547,36 +547,60 @@
 
         </button>
     <p class="first-section-modal-text">Leave your contacts and we will call you back</p>
+
     <form>
         <div class="first-section-modal">
              <label class="first-section-info-input" for="user-name">
 
                  Name
             </label>
+        </div>
         <div class="modal-input-icon-container">
             <input class="modal-input-class" type="text" name="user-name" id="user-name" placeholder=" " required>
             <svg class="modal-input-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-person-black-18dp-1-1"></use>
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
             </svg>
 
         </div>
 
-            <label class="first-section-info-input">
+        <div class="first-section-modal">
+             <label class="first-section-info-input" for="user-phone"> 
+
                 Phone
-                <input type="tel" name="user-phone" id="user-phone" placeholder=" " required>
            </label>
 
-           <label class="first-section-info-input">
+        </div>
+         <div class="modal-input-icon-container">
+
+            <input class="modal-input-class" type="tel" name="user-phone" id="user-phone" placeholder=" " required>
+            <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+            </svg>
+         </div>   
+
+        <div class="first-section-modal">
+             <label class="first-section-info-input" for="user-email">
                 Email
-                <input type="email" name="user-email" id="user-email" placeholder=" " required>
-            </label>
-           <label class="first-section-info-input">
-                Comment
-           <textarea name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Text input"></textarea>
-
-
            </label>
         </div>
+        <div class="modal-input-icon-container">
+            <input class="modal-input-class" type="email" name="user-email" id="user-email" placeholder=" " required>
+            <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+            </svg>
+        </div>
+
+        <div class="first-section-modal-textarea">
+
+            <label class="first-section-info-input" for="user-comment">
+                Comment
+            </label>
+            <textarea class="first-section-modal-textarea-class" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+        </div>
+</div>
+
+           
+        
 
         
     
