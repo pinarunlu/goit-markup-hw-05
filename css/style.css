@@ -817,12 +817,9 @@ margin-left: 16px;
 .first-section-modal-textarea-class:focus{
 border-color: #4D5AE5;
 }
-.approval-box-container{
-    margin-bottom: 24px;
 
-}
 .visually-hidden{
-    visibility: hidden;
+    margin-bottom: 24px;
 }
 .user-privacy-text{
     font-size: 12px;
@@ -831,7 +828,7 @@ border-color: #4D5AE5;
     color:#8e8f99;
 
 }
-.user-privacy-link{
+.user-privacy-box{
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
