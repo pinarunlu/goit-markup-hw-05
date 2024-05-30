@@ -818,7 +818,7 @@ margin-left: 16px;
 border-color: #4D5AE5;
 }
 
-.visually-hidden{
+.user-privacy-box{
     margin-bottom: 24px;
 }
 .user-privacy-text{
@@ -828,7 +828,7 @@ border-color: #4D5AE5;
     color:#8e8f99;
 
 }
-.user-privacy-box{
+.user-privacy-icon-box{
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -840,7 +840,7 @@ border-color: #4D5AE5;
     fill: transparent;
 
 }
-.user-privacy-box:checked + .user-privacy-link{
+.visually-hidden:checked + .user-privacy-icon-box{
     border:none;
     fill:#F4F4FD;
 
