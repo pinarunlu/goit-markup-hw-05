@@ -840,10 +840,11 @@ border-color: #4D5AE5;
     fill: transparent;
 
 }
-.visually-hidden [type="checkbox"]:checked + .user-privacy-icon-box{
+.visually-hidden:checked + .user-privacy-text + .user-privacy-icon-box{
+    
+    background-color:#404bbf;
     border:none;
     fill:#F4F4FD;
-
 
 }
 .user-privacy-link{
