@@ -839,12 +839,13 @@ border-color: #4D5AE5;
     fill: transparent;
 
 }
-input[type="checkbox"] + .user-privacy-text + .user-privacy-icon-box{
+.visually-hidden:checked + .user-privacy-text + .user-privacy-icon-box{
 
     background-color:#404bbf;
     border:none;
     fill:#F4F4FD;
 }
+
 .visually-hidden{
     visibility: hidden;
 }
