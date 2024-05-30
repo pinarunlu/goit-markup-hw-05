@@ -839,7 +839,7 @@ border-color: #4D5AE5;
     fill: transparent;
 
 }
-.visually-hidden:checked + .user-privacy-text + .user-privacy-icon-box{
+.for-span:checked ~.user-privacy-text .user-privacy-icon-box{
 
     background-color:#404bbf;
     border:none;
